@@ -1,0 +1,6 @@
+@misc{chen2026intermittent,
+  title        = {Intermittent Object Interaction for High-Speed Humanoid Dribbling},
+  author       = {Chen, Zihan and Hong, Chuye and Ji, Ziteng and Zhang, Ruiqi and Mueller, Mark W. and Sreenath, Koushil},
+  year         = {2026},
+  howpublished = {\url{https://www.alphaxiv.org/abs/2611.humanoid-dribbling-intermittent-object-interaction}}
+}

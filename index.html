@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zihan Chen</title>
+  <meta name="author" content="Zihan Chen">
+  <meta name="description" content="Personal website of Zihan Chen, undergraduate student at Tongji University and visiting student at UC Berkeley.">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<table class="page"><tbody><tr><td style="padding:0">
+
+  <!-- ===================== Header: bio + photo ===================== -->
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+    <tr>
+      <td class="header-text">
+        <p class="name" style="text-align:center">Zihan Chen</p>
+        <p>
+          Hi! I am an undergraduate student at <a href="https://www.tongji.edu.cn/">Tongji University</a>,
+          currently an undergraduate visiting student at <a href="https://www.berkeley.edu/">UC Berkeley</a>,
+          working with <a href="https://hybrid-robotics.berkeley.edu/koushil/">Prof. Koushil Sreenath</a>
+          in the <a href="https://hybrid-robotics.berkeley.edu/">Hybrid Robotics Group (HRG)</a>.
+          I am grateful to Prof. Sreenath for the opportunity and guidance, and to all members of HRG for their generous help.
+        </p>
+        <p>
+          Previously, I was fortunate to work with <a href="https://scholar.google.com/citations?user=KPHJVAwAAAAJ">Prof. Junqiao Zhao</a>
+          at the TiEV Lab, Tongji University, on meta-reinforcement learning, and with
+          <a href="https://www.cs.tsinghua.edu.cn/csen/info/1313/4403.htm">Prof. Hang Su</a>
+          at the THU-ML Lab, Tsinghua University, on robotic manipulation.
+          I am deeply grateful to both of them for their mentorship.
+        </p>
+        <p>
+          My research focuses on <strong>learning-based control for humanoid robots</strong>.
+          I am particularly interested in:
+        </p>
+        <ul style="padding-left:20px">
+          <li><strong>Reinforcement learning for whole-body control</strong>, especially dynamic, contact-rich skills;</li>
+          <li><strong>Object interaction and loco-manipulation</strong>, such as dribbling a ball at high speed;</li>
+          <li><strong>Sim-to-real transfer</strong>, bridging simulation and real hardware with onboard perception.</li>
+        </ul>
+        <p style="text-align:center">
+          <a href="mailto:aldebaranchen@gmail.com">Email</a> &nbsp;/&nbsp;
+          <a href="https://github.com/Zihan-Chen7">GitHub</a>
+          <!-- add later: &nbsp;/&nbsp; <a href="cv.pdf">CV</a> &nbsp;/&nbsp; <a href="https://scholar.google.com/citations?user=...">Scholar</a> -->
+        </p>
+      </td>
+      <td class="header-photo">
+        <a href="images/portrait.jpg"><img src="images/portrait.jpg" alt="Zihan Chen"></a>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ===================== News (hidden; uncomment to use) =====================
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+    <tr><td class="section-title"><h2>News</h2></td></tr>
+    <tr><td>
+      <ul class="plain-list">
+        <li><strong>[Mon YYYY]</strong> ...</li>
+      </ul>
+    </td></tr>
+  </tbody></table>
+  -->
+
+  <!-- ===================== Publications ===================== -->
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+    <tr><td class="section-title"><h2>Publications</h2></td></tr>
+  </tbody></table>
+
+  <p class="pub-toggle">
+    <a href="#" id="btn-selected" onclick="showPubs('selected'); return false;">Selected Publications</a>
+    &nbsp;|&nbsp;
+    <a href="#" id="btn-all" onclick="showPubs('all'); return false;">All Publications</a>
+  </p>
+
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+
+    <!--
+      HOW TO ADD A PAPER: copy one <tr class="pub ..."> block below.
+      - class="pub selected"  -> shown under both "Selected" and "All"
+      - class="pub"           -> shown only under "All"
+      - Thumbnail: <img> works for .png/.jpg/.gif. For an .mp4 use the <video> line instead.
+      - Add bgcolor="#ffffd0" to the <tr> to highlight a paper (Jon Barron style).
+    -->
+
+    <tr class="pub selected">
+      <td class="pub-thumb">
+        <a href="https://www.alphaxiv.org/abs/2611.humanoid-dribbling-intermittent-object-interaction">
+          <video src="pubs/2026.HumanoidDribbling/teaser.mp4" poster="pubs/2026.HumanoidDribbling/poster.jpg"
+                 muted autoplay loop playsinline preload="metadata" aria-label="Unitree G1 dribbling through a slalom course"></video>
+        </a>
+      </td>
+      <td class="pub-text">
+        <a href="https://www.alphaxiv.org/abs/2611.humanoid-dribbling-intermittent-object-interaction"><span class="papertitle">Intermittent Object Interaction for High-Speed Humanoid Dribbling</span></a>
+        <br>
+        <strong>Zihan Chen</strong>, Chuye Hong, Ziteng Ji, Ruiqi Zhang, Mark W. Mueller, Koushil Sreenath
+        <br>
+        <em>Preprint</em>, 2026
+        <br>
+        <a href="https://www.alphaxiv.org/abs/2611.humanoid-dribbling-intermittent-object-interaction">[Paper]</a>
+        <a href="pubs/2026.HumanoidDribbling/bibtex.txt">[BibTeX]</a>
+        <p>A hierarchical RL framework that learns a route-conditioned dribbling policy on top of a frozen
+          latent whole-body controller, transferring zero-shot to a Unitree G1 that dribbles at up to 1.26 m/s
+          with onboard dual-LiDAR ball perception.</p>
+      </td>
+    </tr>
+
+  </tbody></table>
+
+  <!-- ===================== Education ===================== -->
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+    <tr><td class="section-title"><h2>Education</h2></td></tr>
+    <tr><td>
+      <ul class="plain-list">
+        <li><strong>University of California, Berkeley</strong>, Undergraduate Visiting Student, Jul 2026 &ndash; present</li>
+        <li><strong>Tongji University</strong>, Guohao College, B.Eng. in Computer Science and Technology, Sep 2023 &ndash; present</li>
+      </ul>
+    </td></tr>
+  </tbody></table>
+
+  <!-- ===================== Research Experience ===================== -->
+  <table style="width:100%;border:0;border-spacing:0"><tbody>
+    <tr><td class="section-title"><h2>Research Experience</h2></td></tr>
+    <tr><td>
+      <ul class="plain-list">
+        <li><strong>UC Berkeley</strong>, Visiting Student Researcher, advised by Prof. Koushil Sreenath, Jul 2026 &ndash; present</li>
+        <li><strong>THU-ML Lab, Tsinghua University</strong>, Research Assistant, Apr 2025 &ndash; May 2026</li>
+        <li><strong>TiEV Lab, Tongji University</strong>, Research Assistant, Apr 2025 &ndash; Apr 2026</li>
+      </ul>
+    </td></tr>
+  </tbody></table>
+
+  <!-- ===================== Footer ===================== -->
+  <p class="footer">
+    Last updated: Nov 2026.<br>
+    Template from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a>.
+  </p>
+
+</td></tr></tbody></table>
+
+<script>
+  // Show only "selected" papers, or all of them.
+  function showPubs(mode) {
+    document.querySelectorAll('tr.pub').forEach(function (row) {
+      var visible = mode === 'all' || row.classList.contains('selected');
+      row.style.display = visible ? '' : 'none';
+    });
+    document.getElementById('btn-selected').classList.toggle('active', mode === 'selected');
+    document.getElementById('btn-all').classList.toggle('active', mode === 'all');
+  }
+  showPubs('selected');
+</script>
+</body>
+</html>
